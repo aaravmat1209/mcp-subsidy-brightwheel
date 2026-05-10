@@ -54,6 +54,28 @@
         }
       ],
       "payment_history": [],
+      "check_ins": {
+        "2026-05-05": {"in": "07:15", "out": "16:30", "signature": true},
+        "2026-05-06": {"in": "07:20", "out": "16:15", "signature": true},
+        "2026-05-07": {"in": "07:10", "out": "16:45", "signature": true},
+        "2026-05-08": {"in": "07:25", "out": "16:20", "signature": true},
+        "2026-05-09": {"in": "07:15", "out": "16:30", "signature": true}
+      },
+      "meals_served": {
+        "2026-05-05": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-06": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-07": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-08": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-09": ["breakfast", "am_snack", "lunch", "pm_snack"]
+      },
+      "meal_authorizations": {
+        "breakfast": true,
+        "am_snack": true,
+        "lunch": true,
+        "pm_snack": true,
+        "supper": false,
+        "evening_snack": false
+      },
       "notes": "TEST CASE: Perfect match - agency will pay exactly $850"
     },
     {
@@ -102,6 +124,28 @@
         }
       ],
       "payment_history": [],
+      "check_ins": {
+        "2026-05-05": {"in": "07:00", "out": "17:00", "signature": true},
+        "2026-05-06": {"in": "07:05", "out": "16:55", "signature": true},
+        "2026-05-07": {"in": "07:10", "out": "17:05", "signature": true},
+        "2026-05-08": {"in": "07:00", "out": "17:00", "signature": true},
+        "2026-05-09": {"in": "07:15", "out": "16:50", "signature": true}
+      },
+      "meals_served": {
+        "2026-05-05": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-06": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-07": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-08": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-09": ["breakfast", "am_snack", "lunch", "pm_snack"]
+      },
+      "meal_authorizations": {
+        "breakfast": true,
+        "am_snack": true,
+        "lunch": true,
+        "pm_snack": true,
+        "supper": false,
+        "evening_snack": false
+      },
       "notes": "TEST CASE: Split billing - agency $920, parent $200"
     },
     {
@@ -142,6 +186,28 @@
         }
       ],
       "payment_history": [],
+      "check_ins": {
+        "2026-05-05": {"in": "08:00", "out": "12:30", "signature": true},
+        "2026-05-06": {"in": "08:15", "out": "12:45", "signature": true},
+        "2026-05-07": {"in": "08:00", "out": "12:30", "signature": true},
+        "2026-05-08": {"in": "08:10", "out": "12:40", "signature": true},
+        "2026-05-09": {"in": "08:05", "out": "12:35", "signature": true}
+      },
+      "meals_served": {
+        "2026-05-05": ["breakfast", "am_snack"],
+        "2026-05-06": ["breakfast", "am_snack"],
+        "2026-05-07": ["breakfast", "am_snack"],
+        "2026-05-08": ["breakfast", "am_snack"],
+        "2026-05-09": ["breakfast", "am_snack"]
+      },
+      "meal_authorizations": {
+        "breakfast": true,
+        "am_snack": true,
+        "lunch": false,
+        "pm_snack": false,
+        "supper": false,
+        "evening_snack": false
+      },
       "notes": "TEST CASE: Agency overpayment - will receive $810 instead of $795.50 (credit $14.50)"
     },
     {
@@ -193,6 +259,22 @@
         }
       ],
       "payment_history": [],
+      "check_ins": {
+        "2026-05-05": {"in": "07:30", "out": "16:00", "signature": true},
+        "2026-05-06": {"in": "07:35", "out": "16:05", "signature": true}
+      },
+      "meals_served": {
+        "2026-05-05": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-06": ["breakfast", "am_snack", "lunch", "pm_snack"]
+      },
+      "meal_authorizations": {
+        "breakfast": true,
+        "am_snack": true,
+        "lunch": true,
+        "pm_snack": true,
+        "supper": false,
+        "evening_snack": false
+      },
       "notes": "TEST CASE: Expired authorization - agency pays $0, need to bill family for full $880"
     },
     {
@@ -241,6 +323,28 @@
         }
       ],
       "payment_history": [],
+      "check_ins": {
+        "2026-05-05": {"in": "08:30", "out": "18:00", "signature": true},
+        "2026-05-06": {"in": "08:25", "out": "18:05", "signature": true},
+        "2026-05-07": {"in": "08:30", "out": "18:00", "signature": true},
+        "2026-05-08": {"in": "08:20", "out": "18:10", "signature": true},
+        "2026-05-09": {"in": "08:30", "out": "18:00", "signature": true}
+      },
+      "meals_served": {
+        "2026-05-05": ["breakfast", "am_snack", "lunch", "pm_snack", "supper"],
+        "2026-05-06": ["breakfast", "am_snack", "lunch", "pm_snack", "supper"],
+        "2026-05-07": ["breakfast", "am_snack", "lunch", "pm_snack", "supper"],
+        "2026-05-08": ["breakfast", "am_snack", "lunch", "pm_snack", "supper"],
+        "2026-05-09": ["breakfast", "am_snack", "lunch", "pm_snack", "supper"]
+      },
+      "meal_authorizations": {
+        "breakfast": true,
+        "am_snack": true,
+        "lunch": true,
+        "pm_snack": true,
+        "supper": true,
+        "evening_snack": false
+      },
       "notes": "TEST CASE: Underpayment - agency pays $580 (short $20), decide waive vs bill family"
     },
     {
@@ -281,6 +385,28 @@
         }
       ],
       "payment_history": [],
+      "check_ins": {
+        "2026-05-05": {"in": "07:45", "out": "16:30", "signature": true},
+        "2026-05-06": {"in": "07:50", "out": "16:35", "signature": true},
+        "2026-05-07": {"in": "07:45", "out": "16:30", "signature": true},
+        "2026-05-08": {"in": "07:40", "out": "16:25", "signature": true},
+        "2026-05-09": {"in": "07:45", "out": "16:30", "signature": true}
+      },
+      "meals_served": {
+        "2026-05-05": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-06": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-07": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-08": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-09": ["breakfast", "am_snack", "lunch", "pm_snack"]
+      },
+      "meal_authorizations": {
+        "breakfast": true,
+        "am_snack": true,
+        "lunch": true,
+        "pm_snack": true,
+        "supper": false,
+        "evening_snack": false
+      },
       "notes": "TEST CASE: Perfect match - agency pays exactly $750"
     },
     {
@@ -334,6 +460,28 @@
         }
       ],
       "payment_history": [],
+      "check_ins": {
+        "2026-05-05": {"in": "08:00", "out": "16:30", "signature": true},
+        "2026-05-06": {"in": "08:05", "out": "16:25", "signature": true},
+        "2026-05-07": {"in": "08:00", "out": "12:30", "signature": true},
+        "2026-05-08": {"in": "08:00", "out": "12:30", "signature": true},
+        "2026-05-09": {"in": "08:00", "out": "12:30", "signature": true}
+      },
+      "meals_served": {
+        "2026-05-05": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-06": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-07": ["breakfast", "am_snack"],
+        "2026-05-08": ["breakfast", "am_snack"],
+        "2026-05-09": ["breakfast", "am_snack"]
+      },
+      "meal_authorizations": {
+        "breakfast": true,
+        "am_snack": true,
+        "lunch": true,
+        "pm_snack": true,
+        "supper": false,
+        "evening_snack": false
+      },
       "notes": "TEST CASE: Invoice not posted yet - agency sent payment but can't log until invoice posts"
     },
     {
@@ -374,6 +522,28 @@
         }
       ],
       "payment_history": [],
+      "check_ins": {
+        "2026-05-05": {"in": "07:20", "out": "16:45", "signature": true},
+        "2026-05-06": {"in": "07:25", "out": "16:50", "signature": true},
+        "2026-05-07": {"in": "07:20", "out": "16:45", "signature": true},
+        "2026-05-08": {"in": "07:15", "out": "16:40", "signature": true},
+        "2026-05-09": {"in": "07:20", "out": "16:45", "signature": true}
+      },
+      "meals_served": {
+        "2026-05-05": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-06": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-07": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-08": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-09": ["breakfast", "am_snack", "lunch", "pm_snack"]
+      },
+      "meal_authorizations": {
+        "breakfast": true,
+        "am_snack": true,
+        "lunch": true,
+        "pm_snack": true,
+        "supper": false,
+        "evening_snack": false
+      },
       "notes": "TEST CASE: Perfect match"
     },
     {
@@ -414,6 +584,28 @@
         }
       ],
       "payment_history": [],
+      "check_ins": {
+        "2026-05-05": {"in": "08:30", "out": "13:00", "signature": true},
+        "2026-05-06": {"in": "08:35", "out": "13:05", "signature": true},
+        "2026-05-07": {"in": "08:30", "out": "13:00", "signature": true},
+        "2026-05-08": {"in": "08:25", "out": "12:55", "signature": true},
+        "2026-05-09": {"in": "08:30", "out": "13:00", "signature": true}
+      },
+      "meals_served": {
+        "2026-05-05": ["breakfast", "am_snack", "lunch"],
+        "2026-05-06": ["breakfast", "am_snack", "lunch"],
+        "2026-05-07": ["breakfast", "am_snack", "lunch"],
+        "2026-05-08": ["breakfast", "am_snack", "lunch"],
+        "2026-05-09": ["breakfast", "am_snack", "lunch"]
+      },
+      "meal_authorizations": {
+        "breakfast": true,
+        "am_snack": true,
+        "lunch": true,
+        "pm_snack": false,
+        "supper": false,
+        "evening_snack": false
+      },
       "notes": "TEST CASE: Perfect match"
     },
     {
@@ -454,6 +646,28 @@
         }
       ],
       "payment_history": [],
+      "check_ins": {
+        "2026-05-05": {"in": "07:10", "out": "16:40", "signature": true},
+        "2026-05-06": {"in": "07:15", "out": "16:35", "signature": true},
+        "2026-05-07": {"in": "07:10", "out": "16:40", "signature": true},
+        "2026-05-08": {"in": "07:05", "out": "16:45", "signature": true},
+        "2026-05-09": {"in": "07:10", "out": "16:40", "signature": true}
+      },
+      "meals_served": {
+        "2026-05-05": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-06": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-07": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-08": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-09": ["breakfast", "am_snack", "lunch", "pm_snack"]
+      },
+      "meal_authorizations": {
+        "breakfast": true,
+        "am_snack": true,
+        "lunch": true,
+        "pm_snack": true,
+        "supper": false,
+        "evening_snack": false
+      },
       "notes": "TEST CASE: Perfect match"
     },
     {
@@ -494,6 +708,28 @@
         }
       ],
       "payment_history": [],
+      "check_ins": {
+        "2026-05-05": {"in": "07:05", "out": "17:00", "signature": true},
+        "2026-05-06": {"in": "07:10", "out": "16:55", "signature": true},
+        "2026-05-07": {"in": "07:05", "out": "17:00", "signature": true},
+        "2026-05-08": {"in": "07:00", "out": "17:05", "signature": true},
+        "2026-05-09": {"in": "07:05", "out": "17:00", "signature": true}
+      },
+      "meals_served": {
+        "2026-05-05": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-06": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-07": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-08": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-09": ["breakfast", "am_snack", "lunch", "pm_snack"]
+      },
+      "meal_authorizations": {
+        "breakfast": true,
+        "am_snack": true,
+        "lunch": true,
+        "pm_snack": true,
+        "supper": false,
+        "evening_snack": false
+      },
       "notes": "TEST CASE: Perfect match"
     },
     {
@@ -534,6 +770,28 @@
         }
       ],
       "payment_history": [],
+      "check_ins": {
+        "2026-05-05": {"in": "07:30", "out": "16:50", "signature": true},
+        "2026-05-06": {"in": "07:35", "out": "16:45", "signature": true},
+        "2026-05-07": {"in": "07:30", "out": "16:50", "signature": true},
+        "2026-05-08": {"in": "07:25", "out": "16:55", "signature": true},
+        "2026-05-09": {"in": "07:30", "out": "16:50", "signature": true}
+      },
+      "meals_served": {
+        "2026-05-05": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-06": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-07": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-08": ["breakfast", "am_snack", "lunch", "pm_snack"],
+        "2026-05-09": ["breakfast", "am_snack", "lunch", "pm_snack"]
+      },
+      "meal_authorizations": {
+        "breakfast": true,
+        "am_snack": true,
+        "lunch": true,
+        "pm_snack": true,
+        "supper": false,
+        "evening_snack": false
+      },
       "notes": "TEST CASE: Perfect match"
     }
   ],

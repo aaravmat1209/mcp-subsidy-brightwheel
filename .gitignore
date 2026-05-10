@@ -19,15 +19,23 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
 # Virtual Environment
 venv/
 env/
 ENV/
+.venv
 
-# Environment variables
+# Environment Variables
 .env
 .env.local
+.env.*.local
+
+# API Keys
+*.key
+credentials.json
+secrets.json
 
 # IDE
 .vscode/
@@ -35,16 +43,28 @@ ENV/
 *.swp
 *.swo
 *~
-
-# OS
 .DS_Store
-Thumbs.db
 
-# Project specific
+# Results and Logs
 results/
 *.log
-data/brightwheel_database_old.json
+*.output
 
-# Notebooks
+# Jupyter Notebooks
 .ipynb_checkpoints/
-*.ipynb
+
+# Burr Tracking
+.burr/
+
+# Test Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# MCP
+.mcp/
+
+# Temporary files
+*.tmp
+tmp/
+temp/
