@@ -1,0 +1,544 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-09",
+    "note": "Complete Brightwheel system of record - PIVOTED to invoice/payment reconciliation",
+    "center_name": "Little Stars Academy",
+    "provider_id": "TX-12345-CC",
+    "billing_cycle": "monthly",
+    "current_period": "2026-05-01 to 2026-05-31"
+  },
+  "students": [
+    {
+      "brightwheel_id": "BW-1001",
+      "first_name": "Emma",
+      "last_name": "Rodriguez",
+      "birthdate": "2022-03-15",
+      "kinderconnect_id": "987654321",
+      "status": "Active",
+      "homeroom": "Toddlers",
+      "frp_category": "free",
+      "apt_type": "Full-Time",
+      "allergies": ["peanuts"],
+      "subsidy": true,
+      "parent_1_first_name": "Maria",
+      "parent_1_last_name": "Rodriguez",
+      "parent_1_email": "maria.r@email.com",
+      "parent_1_mobile_phone": "555-0123",
+      "open_invoices": [
+        {
+          "invoice_id": "BW-INV-1001-MAY",
+          "period_start": "2026-05-01",
+          "period_end": "2026-05-31",
+          "total_amount": 1000.00,
+          "status": "posted",
+          "posted_date": "2026-05-01",
+          "due_date": "2026-05-15",
+          "payers": [
+            {
+              "payer_type": "agency",
+              "payer_name": "Texas CCSP",
+              "amount_due": 850.00,
+              "amount_paid": 0.00,
+              "balance": 850.00,
+              "status": "open"
+            },
+            {
+              "payer_type": "parent",
+              "payer_name": "Maria Rodriguez",
+              "amount_due": 150.00,
+              "amount_paid": 0.00,
+              "balance": 150.00,
+              "status": "open"
+            }
+          ]
+        }
+      ],
+      "payment_history": [],
+      "notes": "TEST CASE: Perfect match - agency will pay exactly $850"
+    },
+    {
+      "brightwheel_id": "BW-1002",
+      "first_name": "Liam",
+      "last_name": "Chen",
+      "birthdate": "2021-11-08",
+      "kinderconnect_id": "987654322",
+      "status": "Active",
+      "homeroom": "Toddlers",
+      "frp_category": "free",
+      "apt_type": "Full-Time",
+      "allergies": [],
+      "subsidy": true,
+      "parent_1_first_name": "Wei",
+      "parent_1_last_name": "Chen",
+      "parent_1_email": "wei.chen@email.com",
+      "parent_1_mobile_phone": "555-0124",
+      "open_invoices": [
+        {
+          "invoice_id": "BW-INV-1002-MAY",
+          "period_start": "2026-05-01",
+          "period_end": "2026-05-31",
+          "total_amount": 1120.00,
+          "status": "posted",
+          "posted_date": "2026-05-01",
+          "due_date": "2026-05-15",
+          "payers": [
+            {
+              "payer_type": "agency",
+              "payer_name": "Texas CCSP",
+              "amount_due": 920.00,
+              "amount_paid": 0.00,
+              "balance": 920.00,
+              "status": "open"
+            },
+            {
+              "payer_type": "parent",
+              "payer_name": "Wei Chen",
+              "amount_due": 200.00,
+              "amount_paid": 0.00,
+              "balance": 200.00,
+              "status": "open"
+            }
+          ]
+        }
+      ],
+      "payment_history": [],
+      "notes": "TEST CASE: Split billing - agency $920, parent $200"
+    },
+    {
+      "brightwheel_id": "BW-1003",
+      "first_name": "Olivia",
+      "last_name": "Patel",
+      "birthdate": "2021-06-22",
+      "kinderconnect_id": "987654323",
+      "status": "Active",
+      "homeroom": "Preschool",
+      "frp_category": "reduced",
+      "apt_type": "Part-Time",
+      "allergies": ["dairy", "eggs"],
+      "subsidy": true,
+      "parent_1_first_name": "Priya",
+      "parent_1_last_name": "Patel",
+      "parent_1_email": "priya@email.com",
+      "parent_1_mobile_phone": "555-0125",
+      "open_invoices": [
+        {
+          "invoice_id": "BW-INV-1003-MAY",
+          "period_start": "2026-05-01",
+          "period_end": "2026-05-31",
+          "total_amount": 795.50,
+          "status": "posted",
+          "posted_date": "2026-05-01",
+          "due_date": "2026-05-15",
+          "payers": [
+            {
+              "payer_type": "agency",
+              "payer_name": "Texas CCSP",
+              "amount_due": 795.50,
+              "amount_paid": 0.00,
+              "balance": 795.50,
+              "status": "open"
+            }
+          ]
+        }
+      ],
+      "payment_history": [],
+      "notes": "TEST CASE: Agency overpayment - will receive $810 instead of $795.50 (credit $14.50)"
+    },
+    {
+      "brightwheel_id": "BW-1004",
+      "first_name": "Noah",
+      "last_name": "Johnson",
+      "birthdate": "2022-04-10",
+      "kinderconnect_id": "987654324",
+      "status": "Active",
+      "homeroom": "Toddlers",
+      "frp_category": "paid",
+      "apt_type": "Full-Time",
+      "allergies": [],
+      "subsidy": true,
+      "authorization_end_date": "2026-05-06",
+      "authorization_status": "expired",
+      "parent_1_first_name": "Sarah",
+      "parent_1_last_name": "Johnson",
+      "parent_1_email": "sarah.j@email.com",
+      "parent_1_mobile_phone": "555-0126",
+      "open_invoices": [
+        {
+          "invoice_id": "BW-INV-1004-MAY",
+          "period_start": "2026-05-01",
+          "period_end": "2026-05-31",
+          "total_amount": 1050.00,
+          "status": "posted",
+          "posted_date": "2026-05-01",
+          "due_date": "2026-05-15",
+          "payers": [
+            {
+              "payer_type": "agency",
+              "payer_name": "Texas CCSP",
+              "amount_due": 880.00,
+              "amount_paid": 0.00,
+              "balance": 880.00,
+              "status": "open",
+              "notes": "Authorization expired 5/6 - agency will likely pay $0"
+            },
+            {
+              "payer_type": "parent",
+              "payer_name": "Sarah Johnson",
+              "amount_due": 170.00,
+              "amount_paid": 0.00,
+              "balance": 170.00,
+              "status": "open"
+            }
+          ]
+        }
+      ],
+      "payment_history": [],
+      "notes": "TEST CASE: Expired authorization - agency pays $0, need to bill family for full $880"
+    },
+    {
+      "brightwheel_id": "BW-1005",
+      "first_name": "Ava",
+      "last_name": "Williams",
+      "birthdate": "2023-01-30",
+      "kinderconnect_id": "987654325",
+      "status": "Active",
+      "homeroom": "Infants",
+      "frp_category": "paid",
+      "apt_type": "Full-Time",
+      "allergies": [],
+      "subsidy": true,
+      "parent_1_first_name": "Lisa",
+      "parent_1_last_name": "Williams",
+      "parent_1_email": "lisa.w@email.com",
+      "parent_1_mobile_phone": "555-0127",
+      "open_invoices": [
+        {
+          "invoice_id": "BW-INV-1005-MAY",
+          "period_start": "2026-05-01",
+          "period_end": "2026-05-31",
+          "total_amount": 900.00,
+          "status": "posted",
+          "posted_date": "2026-05-01",
+          "due_date": "2026-05-15",
+          "payers": [
+            {
+              "payer_type": "agency",
+              "payer_name": "Texas CCSP",
+              "amount_due": 600.00,
+              "amount_paid": 0.00,
+              "balance": 600.00,
+              "status": "open"
+            },
+            {
+              "payer_type": "parent",
+              "payer_name": "Lisa Williams",
+              "amount_due": 300.00,
+              "amount_paid": 0.00,
+              "balance": 300.00,
+              "status": "open"
+            }
+          ]
+        }
+      ],
+      "payment_history": [],
+      "notes": "TEST CASE: Underpayment - agency pays $580 (short $20), decide waive vs bill family"
+    },
+    {
+      "brightwheel_id": "BW-1006",
+      "first_name": "Sophia",
+      "last_name": "Martinez",
+      "birthdate": "2021-09-15",
+      "kinderconnect_id": "987654326",
+      "status": "Active",
+      "homeroom": "Preschool",
+      "frp_category": "free",
+      "apt_type": "Full-Time",
+      "allergies": ["shellfish", "tree nuts"],
+      "subsidy": true,
+      "parent_1_first_name": "Ana",
+      "parent_1_last_name": "Martinez",
+      "parent_1_email": "ana.martinez@email.com",
+      "parent_1_mobile_phone": "555-0129",
+      "open_invoices": [
+        {
+          "invoice_id": "BW-INV-1006-MAY",
+          "period_start": "2026-05-01",
+          "period_end": "2026-05-31",
+          "total_amount": 750.00,
+          "status": "posted",
+          "posted_date": "2026-05-01",
+          "due_date": "2026-05-15",
+          "payers": [
+            {
+              "payer_type": "agency",
+              "payer_name": "Texas CCSP",
+              "amount_due": 750.00,
+              "amount_paid": 0.00,
+              "balance": 750.00,
+              "status": "open"
+            }
+          ]
+        }
+      ],
+      "payment_history": [],
+      "notes": "TEST CASE: Perfect match - agency pays exactly $750"
+    },
+    {
+      "brightwheel_id": "BW-1007",
+      "first_name": "Jackson",
+      "last_name": "Lee",
+      "birthdate": "2022-07-18",
+      "kinderconnect_id": "987654327",
+      "status": "Active",
+      "homeroom": "Toddlers",
+      "frp_category": "reduced",
+      "apt_type": "Part-Time",
+      "apt_type_history": {
+        "2026-05-05": "Full-Time",
+        "2026-05-06": "Full-Time",
+        "2026-05-07": "Part-Time"
+      },
+      "allergies": [],
+      "subsidy": true,
+      "parent_1_first_name": "Min",
+      "parent_1_last_name": "Lee",
+      "parent_1_email": "min.lee@email.com",
+      "parent_1_mobile_phone": "555-0130",
+      "open_invoices": [
+        {
+          "invoice_id": "BW-INV-1007-MAY",
+          "period_start": "2026-05-01",
+          "period_end": "2026-05-31",
+          "total_amount": 650.00,
+          "status": "upcoming",
+          "posted_date": null,
+          "due_date": "2026-05-20",
+          "payers": [
+            {
+              "payer_type": "agency",
+              "payer_name": "Texas CCSP",
+              "amount_due": 450.00,
+              "amount_paid": 0.00,
+              "balance": 450.00,
+              "status": "pending_post"
+            },
+            {
+              "payer_type": "parent",
+              "payer_name": "Min Lee",
+              "amount_due": 200.00,
+              "amount_paid": 0.00,
+              "balance": 200.00,
+              "status": "pending_post"
+            }
+          ]
+        }
+      ],
+      "payment_history": [],
+      "notes": "TEST CASE: Invoice not posted yet - agency sent payment but can't log until invoice posts"
+    },
+    {
+      "brightwheel_id": "BW-1008",
+      "first_name": "Lucas",
+      "last_name": "Brown",
+      "birthdate": "2023-05-22",
+      "kinderconnect_id": "987654328",
+      "status": "Active",
+      "homeroom": "Toddlers",
+      "frp_category": "paid",
+      "apt_type": "Full-Time",
+      "allergies": [],
+      "subsidy": true,
+      "parent_1_first_name": "Emily",
+      "parent_1_last_name": "Brown",
+      "parent_1_email": "emily.b@email.com",
+      "parent_1_mobile_phone": "555-0132",
+      "open_invoices": [
+        {
+          "invoice_id": "BW-INV-1008-MAY",
+          "period_start": "2026-05-01",
+          "period_end": "2026-05-31",
+          "total_amount": 820.00,
+          "status": "posted",
+          "posted_date": "2026-05-01",
+          "due_date": "2026-05-15",
+          "payers": [
+            {
+              "payer_type": "agency",
+              "payer_name": "Texas CCSP",
+              "amount_due": 820.00,
+              "amount_paid": 0.00,
+              "balance": 820.00,
+              "status": "open"
+            }
+          ]
+        }
+      ],
+      "payment_history": [],
+      "notes": "TEST CASE: Perfect match"
+    },
+    {
+      "brightwheel_id": "BW-1009",
+      "first_name": "Isabella",
+      "last_name": "Kim",
+      "birthdate": "2021-12-03",
+      "kinderconnect_id": "987654329",
+      "status": "Active",
+      "homeroom": "Preschool",
+      "frp_category": "free",
+      "apt_type": "Part-Time",
+      "allergies": [],
+      "subsidy": true,
+      "parent_1_first_name": "Sun",
+      "parent_1_last_name": "Kim",
+      "parent_1_email": "sun.kim@email.com",
+      "parent_1_mobile_phone": "555-0131",
+      "open_invoices": [
+        {
+          "invoice_id": "BW-INV-1009-MAY",
+          "period_start": "2026-05-01",
+          "period_end": "2026-05-31",
+          "total_amount": 680.00,
+          "status": "posted",
+          "posted_date": "2026-05-01",
+          "due_date": "2026-05-15",
+          "payers": [
+            {
+              "payer_type": "agency",
+              "payer_name": "Texas CCSP",
+              "amount_due": 680.00,
+              "amount_paid": 0.00,
+              "balance": 680.00,
+              "status": "open"
+            }
+          ]
+        }
+      ],
+      "payment_history": [],
+      "notes": "TEST CASE: Perfect match"
+    },
+    {
+      "brightwheel_id": "BW-1010",
+      "first_name": "Mia",
+      "last_name": "Anderson",
+      "birthdate": "2022-02-14",
+      "kinderconnect_id": "987654330",
+      "status": "Active",
+      "homeroom": "Toddlers",
+      "frp_category": "free",
+      "apt_type": "Full-Time",
+      "allergies": ["gluten"],
+      "subsidy": true,
+      "parent_1_first_name": "Anna",
+      "parent_1_last_name": "Anderson",
+      "parent_1_email": "anna@email.com",
+      "parent_1_mobile_phone": "555-0133",
+      "open_invoices": [
+        {
+          "invoice_id": "BW-INV-1010-MAY",
+          "period_start": "2026-05-01",
+          "period_end": "2026-05-31",
+          "total_amount": 775.00,
+          "status": "posted",
+          "posted_date": "2026-05-01",
+          "due_date": "2026-05-15",
+          "payers": [
+            {
+              "payer_type": "agency",
+              "payer_name": "Texas CCSP",
+              "amount_due": 775.00,
+              "amount_paid": 0.00,
+              "balance": 775.00,
+              "status": "open"
+            }
+          ]
+        }
+      ],
+      "payment_history": [],
+      "notes": "TEST CASE: Perfect match"
+    },
+    {
+      "brightwheel_id": "BW-1011",
+      "first_name": "Ethan",
+      "last_name": "Garcia",
+      "birthdate": "2022-08-19",
+      "kinderconnect_id": "987654331",
+      "status": "Active",
+      "homeroom": "Toddlers",
+      "frp_category": "free",
+      "apt_type": "Full-Time",
+      "allergies": [],
+      "subsidy": true,
+      "parent_1_first_name": "Carlos",
+      "parent_1_last_name": "Garcia",
+      "parent_1_email": "carlos.g@email.com",
+      "parent_1_mobile_phone": "555-0134",
+      "open_invoices": [
+        {
+          "invoice_id": "BW-INV-1011-MAY",
+          "period_start": "2026-05-01",
+          "period_end": "2026-05-31",
+          "total_amount": 890.00,
+          "status": "posted",
+          "posted_date": "2026-05-01",
+          "due_date": "2026-05-15",
+          "payers": [
+            {
+              "payer_type": "agency",
+              "payer_name": "Texas CCSP",
+              "amount_due": 890.00,
+              "amount_paid": 0.00,
+              "balance": 890.00,
+              "status": "open"
+            }
+          ]
+        }
+      ],
+      "payment_history": [],
+      "notes": "TEST CASE: Perfect match"
+    },
+    {
+      "brightwheel_id": "BW-1012",
+      "first_name": "Charlotte",
+      "last_name": "Davis",
+      "birthdate": "2021-10-05",
+      "kinderconnect_id": "987654332",
+      "status": "Active",
+      "homeroom": "Preschool",
+      "frp_category": "reduced",
+      "apt_type": "Full-Time",
+      "allergies": [],
+      "subsidy": true,
+      "parent_1_first_name": "Rachel",
+      "parent_1_last_name": "Davis",
+      "parent_1_email": "rachel.d@email.com",
+      "parent_1_mobile_phone": "555-0135",
+      "open_invoices": [
+        {
+          "invoice_id": "BW-INV-1012-MAY",
+          "period_start": "2026-05-01",
+          "period_end": "2026-05-31",
+          "total_amount": 950.00,
+          "status": "posted",
+          "posted_date": "2026-05-01",
+          "due_date": "2026-05-15",
+          "payers": [
+            {
+              "payer_type": "agency",
+              "payer_name": "Texas CCSP",
+              "amount_due": 950.00,
+              "amount_paid": 0.00,
+              "balance": 950.00,
+              "status": "open"
+            }
+          ]
+        }
+      ],
+      "payment_history": [],
+      "notes": "TEST CASE: Perfect match"
+    }
+  ],
+  "rooms": ["Infants", "Toddlers", "Preschool"],
+  "valid_enrollment_statuses": ["Lead", "Toured", "Applied", "Waitlist", "Prospect", "Active", "Inactive", "Graduated", "Removed"],
+  "valid_invoice_statuses": ["upcoming", "posted", "paid", "partially_paid", "overdue", "waived"],
+  "valid_payment_methods": ["check", "ach", "credit_card", "cash", "wire_transfer"]
+}
