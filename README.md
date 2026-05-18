@@ -47,44 +47,7 @@ Brightwheel Subsidy Agent is a full-stack automation system that reconciles chil
 
 ## Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                          Frontend (React)                           │
-│  ┌───────────┐  ┌─────────────────┐  ┌──────────────────────────┐   │
-│  │ FileUpload│  │ ProcessingView  │  │      ResultsView         │   │
-│  │ (Multipart)│──│ (SSE Streaming) │──│ (Exceptions & Insights)  │   │
-│  └───────────┘  └────────┬────────┘  └──────────────────────────┘   │
-│                          │ HTTP / SSE                               │
-└──────────────────────────┼──────────────────────────────────────────┘
-                           │
-               ┌───────────▼───────────┐
-               │    FastAPI Backend    │
-               │   (api.py @ :8000)    │
-               │                       │
-               │  ┌─────────────────┐  │
-               │  │ Extraction Agent│  │    ← Docling + Claude
-               │  └────────┬────────┘  │
-               │           │           │
-               │  ┌────────▼────────┐  │
-               │  │ Hybrid          │  │    ← Strategy & Synthesis
-               │  │ Orchestrator    │  │
-               │  └────────┬────────┘  │
-               │           │           │
-               │  ┌────────▼────────┐  │
-               │  │ FastMCP Pool    │  │    ← Persistent connection
-               │  └─────────────────┘  │
-               └───────────────────────┘
-                           │
-               ┌───────────▼───────────┐
-               │   External Services   │
-               │  ┌─────────────────┐  │
-               │  │ Brightwheel API │  │    ← Tool Execution target
-               │  └─────────────────┘  │
-               │  ┌─────────────────┐  │
-               │  │ Jira Cloud API  │  │    ← Exception Ticketing
-               │  └─────────────────┘  │
-               └───────────────────────┘
-```
+![Architecture Diagram](architecture_diagram.png)
 
 ---
 
