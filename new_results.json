@@ -1,0 +1,326 @@
+{
+  "kinderconnect": {
+    "matched": [
+      {
+        "child_name": "Rodriguez, Emma",
+        "kc_id": "987654321",
+        "overall": "MATCH"
+      },
+      {
+        "child_name": "Johnson, Noah",
+        "kc_id": "987654324",
+        "overall": "MATCH"
+      },
+      {
+        "child_name": "Brown, Lucas",
+        "kc_id": "987654328",
+        "overall": "MATCH"
+      },
+      {
+        "child_name": "Anderson, Mia",
+        "kc_id": "987654330",
+        "overall": "MATCH"
+      }
+    ],
+    "exceptions": [
+      {
+        "child_name": "Chen, Liam",
+        "kc_id": "987654322",
+        "overall": "EXCEPTION",
+        "exception_type": "TIME_MISMATCH",
+        "severity": "HIGH",
+        "action_required": "Review and reconcile attendance time discrepancies",
+        "exceptions": [
+          {
+            "date": "2026-05-05",
+            "reason": "Check-in time mismatch: KC 08:00 vs BW 07:00 (60 minutes difference)"
+          },
+          {
+            "date": "2026-05-06",
+            "reason": "Check-in time mismatch: KC 08:05 vs BW 07:05 (60 minutes difference)"
+          },
+          {
+            "date": "2026-05-07",
+            "reason": "Check-in time mismatch: KC 08:00 vs BW 07:10 (50 minutes difference)"
+          },
+          {
+            "date": "2026-05-08",
+            "reason": "Check-in time mismatch: KC 07:55 vs BW 07:00 (55 minutes difference)"
+          },
+          {
+            "date": "2026-05-09",
+            "reason": "Check-in time mismatch: KC 08:00 vs BW 07:15 (45 minutes difference), Check-out time mismatch: KC 17:00 vs BW 16:50 (10 minutes difference)"
+          }
+        ]
+      },
+      {
+        "child_name": "Patel, Olivia",
+        "kc_id": "987654323",
+        "overall": "EXCEPTION",
+        "exception_type": "TIME_MISMATCH",
+        "severity": "HIGH",
+        "action_required": "Review and reconcile attendance time discrepancies",
+        "exceptions": [
+          {
+            "date": "2026-05-05",
+            "reason": "Check-in time mismatch: KC 07:30 vs BW 08:00 (30 minutes difference), Check-out time mismatch: KC 15:30 vs BW 12:30 (180 minutes difference)"
+          },
+          {
+            "date": "2026-05-06",
+            "reason": "Check-in time mismatch: KC 07:35 vs BW 08:15 (40 minutes difference), Check-out time mismatch: KC 15:25 vs BW 12:45 (160 minutes difference)"
+          },
+          {
+            "date": "2026-05-07",
+            "reason": "Check-in time mismatch: KC 07:30 vs BW 08:00 (30 minutes difference), Check-out time mismatch: KC 15:30 vs BW 12:30 (180 minutes difference)"
+          },
+          {
+            "date": "2026-05-08",
+            "reason": "Check-in time mismatch: KC 07:30 vs BW 08:10 (40 minutes difference), Check-out time mismatch: KC 15:40 vs BW 12:40 (180 minutes difference)"
+          },
+          {
+            "date": "2026-05-09",
+            "reason": "Check-in time mismatch: KC 07:30 vs BW 08:05 (35 minutes difference), Check-out time mismatch: KC 15:30 vs BW 12:35 (175 minutes difference)"
+          }
+        ]
+      },
+      {
+        "child_name": "Williams, Ava",
+        "kc_id": "987654325",
+        "overall": "EXCEPTION",
+        "exception_type": "TIME_MISMATCH",
+        "severity": "HIGH",
+        "action_required": "Review and reconcile attendance time discrepancies",
+        "exceptions": [
+          {
+            "date": "2026-05-05",
+            "reason": "Check-in time mismatch: KC 09:00 vs BW 08:30 (30 minutes difference), Check-out time mismatch: KC 17:30 vs BW 18:00 (30 minutes difference)"
+          },
+          {
+            "date": "2026-05-06",
+            "reason": "Check-in time mismatch: KC 09:05 vs BW 08:25 (40 minutes difference), Check-out time mismatch: KC 17:25 vs BW 18:05 (40 minutes difference)"
+          },
+          {
+            "date": "2026-05-07",
+            "reason": "Check-in time mismatch: KC 09:00 vs BW 08:30 (30 minutes difference), Check-out time mismatch: KC 17:30 vs BW 18:00 (30 minutes difference)"
+          },
+          {
+            "date": "2026-05-08",
+            "reason": "Check-in time mismatch: KC 08:55 vs BW 08:20 (35 minutes difference), Check-out time mismatch: KC 17:35 vs BW 18:10 (35 minutes difference)"
+          },
+          {
+            "date": "2026-05-09",
+            "reason": "Check-in time mismatch: KC 09:00 vs BW 08:30 (30 minutes difference), Check-out time mismatch: KC 17:30 vs BW 18:00 (30 minutes difference)"
+          }
+        ]
+      },
+      {
+        "child_name": "Martinez, Sophia",
+        "kc_id": "987654326",
+        "overall": "EXCEPTION",
+        "exception_type": "TIME_MISMATCH",
+        "severity": "HIGH",
+        "action_required": "Review and reconcile attendance time discrepancies and absence records",
+        "exceptions": [
+          {
+            "date": "2026-05-05",
+            "reason": "Attendance status mismatch: KC absent vs BW present"
+          },
+          {
+            "date": "2026-05-06",
+            "reason": "Attendance status mismatch: KC absent vs BW present"
+          },
+          {
+            "date": "2026-05-07",
+            "reason": "Check-in time mismatch: KC 07:15 vs BW 07:45 (30 minutes difference)"
+          },
+          {
+            "date": "2026-05-08",
+            "reason": "Check-in time mismatch: KC 07:20 vs BW 07:40 (20 minutes difference)"
+          },
+          {
+            "date": "2026-05-09",
+            "reason": "Check-in time mismatch: KC 07:15 vs BW 07:45 (30 minutes difference)"
+          }
+        ]
+      },
+      {
+        "child_name": "Lee, Jackson",
+        "kc_id": "987654327",
+        "overall": "EXCEPTION",
+        "exception_type": "TIME_MISMATCH",
+        "severity": "HIGH",
+        "action_required": "Review and reconcile attendance time discrepancies and missing records",
+        "exceptions": [
+          {
+            "date": "2026-05-05",
+            "reason": "Check-in time mismatch: KC 07:00 vs BW 08:00 (60 minutes difference), Check-out time mismatch: KC 17:00 vs BW 16:30 (30 minutes difference)"
+          },
+          {
+            "date": "2026-05-06",
+            "reason": "Check-in time mismatch: KC 07:05 vs BW 08:05 (60 minutes difference), Check-out time mismatch: KC 16:55 vs BW 16:25 (30 minutes difference)"
+          },
+          {
+            "date": "2026-05-07",
+            "reason": "Missing record in Brightwheel"
+          },
+          {
+            "date": "2026-05-08",
+            "reason": "Missing record in Brightwheel"
+          },
+          {
+            "date": "2026-05-09",
+            "reason": "Missing record in Brightwheel"
+          }
+        ]
+      },
+      {
+        "child_name": "Kim, Isabella",
+        "kc_id": "987654329",
+        "overall": "EXCEPTION",
+        "exception_type": "TIME_MISMATCH",
+        "severity": "HIGH",
+        "action_required": "Review and reconcile attendance time discrepancies",
+        "exceptions": [
+          {
+            "date": "2026-05-05",
+            "reason": "Check-in time mismatch: KC 08:15 vs BW 08:30 (15 minutes difference), Check-out time mismatch: KC 15:15 vs BW 13:00 (135 minutes difference)"
+          },
+          {
+            "date": "2026-05-06",
+            "reason": "Check-in time mismatch: KC 08:20 vs BW 08:35 (15 minutes difference), Check-out time mismatch: KC 15:10 vs BW 13:05 (125 minutes difference)"
+          },
+          {
+            "date": "2026-05-07",
+            "reason": "Check-in time mismatch: KC 08:15 vs BW 08:30 (15 minutes difference), Check-out time mismatch: KC 15:15 vs BW 13:00 (135 minutes difference)"
+          },
+          {
+            "date": "2026-05-08",
+            "reason": "Check-in time mismatch: KC 08:15 vs BW 08:25 (10 minutes difference), Check-out time mismatch: KC 15:20 vs BW 12:55 (145 minutes difference)"
+          },
+          {
+            "date": "2026-05-09",
+            "reason": "Check-in time mismatch: KC 08:15 vs BW 08:30 (15 minutes difference), Check-out time mismatch: KC 15:15 vs BW 13:00 (135 minutes difference)"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_students": 10,
+      "matched_children": 4,
+      "exception_children": 6,
+      "match_rate": 40.0,
+      "time_saved_hours": 2.5,
+      "actions_staged": 10
+    },
+    "staged_actions": [
+      {
+        "action_type": "log_agency_payment",
+        "student_id": "BW-1001",
+        "student_name": "Emma Rodriguez",
+        "amount": 850.0,
+        "date": "2026-05-09",
+        "agency_id": "STATE-KINDERCONNECT",
+        "invoice_id": "INV-BW-1001-2026-05",
+        "timestamp": "2026-05-10T12:00:00Z"
+      },
+      {
+        "action_type": "log_agency_payment",
+        "student_id": "BW-1004",
+        "student_name": "Noah Johnson",
+        "amount": 880.0,
+        "date": "2026-05-09",
+        "agency_id": "STATE-KINDERCONNECT",
+        "invoice_id": "INV-BW-1004-2026-05",
+        "timestamp": "2026-05-10T12:00:00Z"
+      },
+      {
+        "action_type": "log_agency_payment",
+        "student_id": "BW-1008",
+        "student_name": "Lucas Brown",
+        "amount": 820.0,
+        "date": "2026-05-09",
+        "agency_id": "STATE-KINDERCONNECT",
+        "invoice_id": "INV-BW-1008-2026-05",
+        "timestamp": "2026-05-10T12:00:00Z"
+      },
+      {
+        "action_type": "log_agency_payment",
+        "student_id": "BW-1010",
+        "student_name": "Mia Anderson",
+        "amount": 775.0,
+        "date": "2026-05-09",
+        "agency_id": "STATE-KINDERCONNECT",
+        "invoice_id": "INV-BW-1010-2026-05",
+        "timestamp": "2026-05-10T12:00:00Z"
+      },
+      {
+        "action_type": "bill_another_payer",
+        "student_id": "BW-1002",
+        "student_name": "Liam Chen",
+        "remaining_balance": 50.0,
+        "payer_type": "parent_copay",
+        "payer_id": "PARENT-BW-1002",
+        "reason": "State underpaid due to time discrepancies. Review and reconcile attendance time discrepancies",
+        "timestamp": "2026-05-10T12:00:00Z"
+      },
+      {
+        "action_type": "bill_another_payer",
+        "student_id": "BW-1003",
+        "student_name": "Olivia Patel",
+        "remaining_balance": 50.0,
+        "payer_type": "parent_copay",
+        "payer_id": "PARENT-BW-1003",
+        "reason": "State underpaid due to time discrepancies. Review and reconcile attendance time discrepancies",
+        "timestamp": "2026-05-10T12:00:00Z"
+      },
+      {
+        "action_type": "bill_another_payer",
+        "student_id": "BW-1005",
+        "student_name": "Ava Williams",
+        "remaining_balance": 50.0,
+        "payer_type": "parent_copay",
+        "payer_id": "PARENT-BW-1005",
+        "reason": "State underpaid due to time discrepancies. Review and reconcile attendance time discrepancies",
+        "timestamp": "2026-05-10T12:00:00Z"
+      },
+      {
+        "action_type": "bill_another_payer",
+        "student_id": "BW-1006",
+        "student_name": "Sophia Martinez",
+        "remaining_balance": 50.0,
+        "payer_type": "parent_copay",
+        "payer_id": "PARENT-BW-1006",
+        "reason": "State underpaid due to time discrepancies. Review and reconcile attendance time discrepancies and absence records",
+        "timestamp": "2026-05-10T12:00:00Z"
+      },
+      {
+        "action_type": "bill_another_payer",
+        "student_id": "BW-1007",
+        "student_name": "Jackson Lee",
+        "remaining_balance": 45.0,
+        "payer_type": "parent_copay",
+        "payer_id": "PARENT-BW-1007",
+        "reason": "State underpaid due to time discrepancies. Review and reconcile attendance time discrepancies and missing records",
+        "timestamp": "2026-05-10T12:00:00Z"
+      },
+      {
+        "action_type": "bill_another_payer",
+        "student_id": "BW-1009",
+        "student_name": "Isabella Kim",
+        "remaining_balance": 50.0,
+        "payer_type": "parent_copay",
+        "payer_id": "PARENT-BW-1009",
+        "reason": "State underpaid due to time discrepancies. Review and reconcile attendance time discrepancies",
+        "timestamp": "2026-05-10T12:00:00Z"
+      }
+    ]
+  },
+  "cacfp": {
+    "valid": [],
+    "non_payable": [],
+    "summary": {
+      "total": 12,
+      "time_saved_hours": 2.0
+    }
+  }
+}

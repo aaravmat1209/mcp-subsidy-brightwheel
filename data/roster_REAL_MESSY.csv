@@ -1,0 +1,52 @@
+first name,Last_Name,DOB,status,Homeroom,Parent Name,parent_email,Parent Phone,Allergies,FRP Category,Family Income,Subsidy,KinderConnect ID,Notes
+EMMA,Smith,7/24/2022,ACTIVE,Pre-K,Carlos Smith,smith.emma@email.com,-7885,eggs,reduced price,Middle income,TRUE,987654321,Auth expires soon
+Liam,johnson,6/15/2022,active,Preschool,John J.,johnson.liam@email.com,555-7907,shellfish,Reduced,$50k-$65k,TRUE,987654322,
+Sophia,Williams,12/9/2021,active,Preschool,"Williams, Sarah",,555-2604,eggs,REDUCED,"$35,001-$50,000",Y,987654323,Auth expires soon
+Noah,Brown,12/7/2021,ACTIVE,Toddlers,David B.,brown.noah@email.com,,dairy,Paid,"$100,000+",YES,987654324,Sibling in Pre-K room
+Ava,Jones,5/18/2021,active,Infants,Jessica Jones,jones.ava@email.com,5554944,eggs,free,"$0-$25,000",YES,987654325,???
+  Oliver , Garcia  ,5/10/2021,active,Toddlers,Jessica G.,garcia.oliver@email.com,-1768,N/A,FREE,Low income,T,987654326,???
+Isabella,Miller,4/5/2021,active,Preschool,Maria M.,miller.isabella@email.com,555-4067,shellfish,Free,$85k+,yes,987654327,
+Elijah,Davis,18-05-2021,ACTIVE,Infants,John Davis,davis.elijah@email.com,(555) 8063,peanuts; dairy,Free,Under $30k,TRUE,987654328,Check authorization renewal date
+Charlotte,Rodriguez,,ACTIVE,Toddlers,Maria R.,rodriguez.charlotte@email.com,-8249,dairy,Reduced,$50k-$65k,YES,987654329,Auth expires soon
+James,Martinez,3/26/2021,ACTIVE,Preschool,Jessica,martinez.james@email.com,5557754,eggs,R,"$35,001-$50,000",YES,987654330,
+Mia.,Hernandez,2/13/2022,ACTIVE,Preschool,"Hernandez, Michael",hernandez.mia@email.com,-2419,soy,Free,Under $30k,Y,987654331,Parent prefers text communication
+Benjamin,Lopez,8/19/2021,enrolled,Infants,Lisa Lopez,lopez.benjamin@email.com,555-7075,soy,F,Under $30k,Yes,987654332,All good
+Amelia,Gonzalez,10/28/2021,ACTIVE,Toddlers,Carlos G.,gonzalez.amelia@email.com,-6313,peanuts,Paid,"$25,001-$35,000",yes,987654333,Parent prefers text communication
+Lucas,Wilson,5/26/2021,active,Infants,"Wilson, Sarah",MISSING,-555,eggs,Paid,$75k-$100k,TRUE,987654334,Verify income bracket
+Harper,Anderson,3/4/2021,Active,Preschool,Michael Anderson,anderson.harper@email.com,-5791,peanuts; dairy,PAID,$75k-$100k,TRUE,987654335,Parent prefers text communication
+Harper,Anderson,3/4/2021,Active,Preschool,Michael Anderson,harper.different@email.com,-5791,peanuts; dairy,Reduced,$75k-$100k,TRUE,987654335,DUPLICATE - which is correct?
+Mason,Thomas,11/13/2021,ACTIVE,Preschool,Maria T.,thomas.mason@email.com,(555) 6250,soy,reduced price,"$35,001-$50,000",TRUE,987654336,All good
+Evelyn,Taylor,5/17/2022,active,Pre-K,"Taylor, Lisa",taylor.evelyn@email.com,5555554,soy,R,$50k-$65k,TRUE,987654337,Check authorization renewal date
+Ethan,Moore,3/11/2022,Active,Toddlers,Lisa Moore,moore.ethan@email.com,5559669,gluten,P,$85k+,YES,987654338,All good
+Abigail,Jackson,7/12/2021,ACTIVE,Pre-K,"Jackson, Lisa",jackson.abigail@email.com,-2917,shellfish,Reduced,Middle income,TRUE,987654339,All good
+Alexander,Martin,4/25/2022,Active,Infants,Carlos Martin,martin.alexander@email.com,5551491,shellfish,reduced price,$45k-$60k,T,987654340,Auth expires soon
+Emily,Lee,2/10/2021,Active,Infants,David L.,lee.emily@email.com,(555) 5889,,Free,"$0-$25,000",TRUE,987654341,Check authorization renewal date
+Henry,Perez,7/8/2022,Active,Infants,John P.,perez.henry@email.com,555-9644,gluten,FREE,"$0-$25,000",T,987654342,Auth expires soon
+Ella,Thompson,2/12/2022,Active,Infants,Carlos Thompson,thompson.ella@email.com,-6736,peanuts; dairy,Reduced,$50k-$65k,TRUE,987654343,Verify income bracket
+Sebastian,White,3/25/2021,active,Preschool,"White, Carlos",white.sebastian@email.com,(555) 9846,shellfish,REDUCED,"$35,001-$50,000",TRUE,987654344,Parent prefers text communication
+Elizabeth,Harris,2/2/2022,Active,Preschool,David H.,harris.elizabeth@email.com,555-2556,eggs,Paid,Over $75k,Y,987654345,???
+Jack,Sanchez,7/9/2022,active,Toddlers,Carlos Sanchez,sanchez.jack@email.com,(555) 2431,eggs,free,"$25,001-$35,000",T,987654346,Parent prefers text communication
+Camila,Clark,1/9/2022,active,Infants,Carlos Clark,clark.camila@email.com,(555) 9333,eggs,Paid,$75k-$100k,Y,987654347,See admin notes
+Aiden,Ramirez,2/20/2022,ACTIVE,Preschool,Michael R.,ramirez.aiden@email.com,555-6607,dairy,F,Under $30k,YES,987654348,Sibling in Pre-K room
+Luna,Lewis,4/19/2021,Active,Preschool,"Lewis, Sarah",lewis.luna@email.com,(555) 7495,shellfish,free,"$0-$25,000",T,987654349,Parent prefers text communication
+Matthew,Robinson,8/8/2021,ACTIVE,Infants,Lisa Robinson,robinson.matthew@email.com,(555) 9260,soy,FREE,Under $30k,Y,987654350,Verify income bracket
+Sofia,Walker,8/14/2022,ACTIVE,Pre-K,Michael Walker,walker.sofia@email.com,5559203,peanuts,PAID,$75k-$100k,T,987654351,Auth expires soon
+Samuel,Young,12/9/2021,active,Infants,John Y.,young.samuel@email.com,555-9937,soy,FREE,"$0-$25,000",Yes,987654352,Sibling in Pre-K room
+Avery,Allen,5/6/2022,ACTIVE,Toddlers,David Allen,allen.avery@email.com,5554821,eggs,paid in full,$75k-$100k,Y,987654353,Verify income bracket
+Joseph,King,7/20/2021,ACTIVE,Preschool,"King, Michael",king.joseph@email.com,(555) 1180,,reduced price,"$35,001-$50,000",T,987654354,Check authorization renewal date
+Mila,Wright,5/5/2022,active,Pre-K,Maria W.,wright.mila@email.com,(555) 5933,peanuts; dairy,FREE,"$25,001-$35,000",yes,987654355,
+Daniel,Scott,4/16/2021,Active,Preschool,Lisa S.,scott.daniel@email.com,-9621,soy,reduced price,$45k-$60k,Yes,987654356,Parent prefers text communication
+Aria,Torres,4/4/2022,ACTIVE,Infants,Lisa Torres,torres.aria@email.com,(555) 6912,soy,Reduced,$50k-$65k,TRUE,987654357,Auth expires soon
+Carter,Nguyen,12/20/2021,ACTIVE,Preschool,John N.,nguyen.carter@email.com,555-5878,none,P,Over $75k,Y,987654358,Sibling in Pre-K room
+Scarlett,Hill,6/16/2022,Active,Preschool,"Hill, David",hill.scarlett@email.com,555-3955,None,reduced price,$50k-$65k,TRUE,987654359,
+Owen,Flores,9/14/2021,active,Infants,"Flores, Lisa",flores.owen@email.com,-10338,shellfish,full price,Over $75k,Yes,987654360,
+Penelope,Green,2/22/2021,ACTIVE,Pre-K,Maria Green,green.penelope@email.com,5556173,peanuts; dairy,free,Low income,Yes,987654361,
+Wyatt,Adams,7/25/2021,Active,Preschool,Maria A.,adams.wyatt@email.com,(555) 1863,peanuts,Reduced,$50k-$65k,Y,987654362,Check authorization renewal date
+Layla,Nelson,7/20/2022,Active,Pre-K,John Nelson,nelson.layla@email.com,5555416,dairy,REDUCED,Middle income,YES,987654363,???
+John,Baker,5/17/2021,ACTIVE,Toddlers,Lisa B.,baker.john@email.com,(555) 4863,NONE,P,$75k-$100k,Yes,987654364,Parent prefers text communication
+Chloe,Hall,2/25/2022,active,Preschool,John Hall,hall.chloe@email.com,-6679,peanuts,reduced price,$45k-$60k,TRUE,987654365,Sibling in Pre-K room
+Dylan,Rivera,5/9/2022,ACTIVE,Pre-K,"Rivera, John",rivera.dylan@email.com,5557551,peanuts; dairy,F,Under $30k,T,987654366,
+Victoria,Campbell,6/2/2021,active,Infants,"Campbell, David",campbell.victoria@email.com,(555) 1996,dairy,REDUCED,"$35,001-$50,000",YES,987654367,See admin notes
+Luke,Mitchell,1/5/2022,ACTIVE,Infants,Carlos M.,mitchell.luke@email.com,555-8872,shellfish,Free,Under $30k,T,987654368,Verify income bracket
+Madison,Carter,11/8/2021,active,Preschool,Carlos C.,carter.madison@email.com,(555) 8335,peanuts; dairy,R,"$35,001-$50,000",Yes,987654369,See admin notes
+Gabriel,Roberts,9/15/2021,active,Infants,Lisa Roberts,roberts.gabriel@email.com,-3566,peanuts; dairy,full price,$85k+,yes,987654370,All good

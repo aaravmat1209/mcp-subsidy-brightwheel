@@ -1,0 +1,3 @@
+[submodule "vendor/mcp-atlassian"]
+	path = vendor/mcp-atlassian
+	url = https://github.com/brightwheel/mcp-atlassian.git

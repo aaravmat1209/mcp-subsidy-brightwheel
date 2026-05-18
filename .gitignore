@@ -68,3 +68,21 @@ htmlcov/
 *.tmp
 tmp/
 temp/
+node_modules/
+
+# Uploaded files and session data
+uploads/
+backend/uploads/
+
+# Frontend build artifacts
+frontend/build/
+frontend/.next/
+frontend/dist/
+
+# Package manager lock files (optional - some teams commit these)
+# package-lock.json
+# yarn.lock
+
+# OS files
+Thumbs.db
+*.DS_Store
